@@ -1,8 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+## Writeup
 
 ---
 
@@ -34,9 +32,6 @@ the (possibly misidentified) lines, and later averaged them:
 * Made sure  that the intersection of the line with the horizon of the picture is somewhere plausible (I assumed it'd be roughly at the center, it may be different if the car is not following the lane)
 * Then I removed the lines with outlier intercept (since the slope should have been cheked already)
 * Finally I averaged slope and intercept of the remaining lines and drawn the resulting line
-
-
-![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
